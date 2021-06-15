@@ -1,0 +1,398 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#iddados{
+	position: absolute;
+	top:30px;
+	left: 5%;
+    margin-bottom: 50px;
+	width: 90%;
+	height: 160px;
+	background-color: none;
+	text-align: left;
+	z-index:3;
+
+}
+
+.cimagem{
+	width: 350px;
+	height: 200px;
+}
+
+
+/* comentario carousel*/ 
+
+#carrossel{
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+
+
+#idprincipal{
+    padding-top: 10px;
+	position: absolute;
+	visibility: visible;
+	top:180px;
+	left: 25%;
+	width: 50%;
+	height: auto;
+	text-align: center;
+	background-color: #EEEEE0;
+	z-index:2;
+	margin-bottom: 20px;
+    border: solid 1px #2C6FFE;
+}
+
+.row {
+	margin-left: -5px !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ide1{
+	position: absolute;
+	top:180px;
+	left: 5%;
+	width: 19%;
+	height: 210px;
+	background-color: #EEEEE0;
+	z-index:1;
+        
+}
+
+.ide2{
+	position: absolute;
+	top:400px;
+	left: 5%;
+	width: 19%;
+	height: 210px;
+	background-color: #EEEEE0;
+	z-index:1;
+}
+
+.idd1{
+	position: absolute;
+	top:180px;
+	left: 76%;
+	width: 19%;
+	height: 210px;
+	background-color: #EEEEE0;
+	z-index:0;	
+}
+
+.idd2{
+	position: absolute;
+	top:400px;
+	left: 76%;
+	width: 19%;
+	height: 210px;
+	background-color: #EEEEE0;
+	z-index:0;	
+}
+
+header{
+	background: url(../IMG/bg_header.png) repeat-x;
+	height: auto;
+}
+
+aside{
+	width: 100%;	
+}
+
+footer{
+
+    bottom:0;
+    width:100%;
+    background: #e88f48;
+    border-top: solid 60px #007bff;
+
+}
+.line{
+	width: 100%;
+	height: 5%;
+	background: #328fe3;
+}
+
+.carousel-control-prev-icon{
+	background: url(../IMG/icone1.png) no-repeat !important;
+	width: 20px;
+	height: 20px;
+}
+.carousel-control-next-icon{
+	background: url(../IMG/icone2.png) no-repeat !important;
+	width: 20px;
+	height: 20px;
+}
+
+@media(max-width: 600px){
+    body{
+	    background-color:;
+	}
+
+	#iddados{
+		position: absolute;
+		top:5px;
+		left: 0%;
+		width: 100%;
+		height: 80px;
+		background-color: yellow;
+		text-align: center;
+		z-index:3;
+}
+	.cimagem{
+		width: 110px;
+		height: 73px;
+	}
+
+
+	#idprincipal{
+		position: absolute;
+		visibility: visible;
+		top:90px;
+		left: 0%;
+		width: 100%;
+		height: 430px;
+		text-align: center;
+		background-color: #EEEEE0;
+		z-index:2;
+	}
+
+	.ide1{
+		position: absolute;
+		top:310px;
+		left: 0%;
+		width: 24%;
+		height: 105px;
+		background-color: #EEEEE0;
+		z-index:1;
+	}
+
+	.ide2{
+		position: absolute;
+		top:310px;
+		left: 25%;
+		width: 24%;
+		height: 105px;
+		background-color: #EEEEE0;
+		z-index:1;
+	}
+
+	.idd1{
+		position: absolute;
+		top:310px;
+		left: 50%;
+		width: 24%;
+		height: 105px;
+		background-color: #EEEEE0;
+		z-index:0;	
+	}
+
+	.idd2{
+		position: absolute;
+		top:310px;
+		left: 75%;
+		width: 25%;
+		height: 105px;
+		background-color: #EEEEE0;
+		z-index:0;	
+}
+
+
+
+}
+#loginAdm{
+    height: 70px;
+    width: 100%;
+    background: #328FE3;
+    border-top: solid 10px #e88f48;
+    color:#000;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+}
+
+.loginAdm{
+    height: 60px;
+    width: 100%;
+    background: #328FE3;
+    border-top: solid 10px #e88f48;
+    color:#000;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+	margin-top: 8px;
+    font-size: 20px;
+}
+.menu a{
+    padding-left: 20px;
+}
+.col-sm{
+	margin: 70px 0px 70px 0px;
+}
+.metodos{
+	color: white;
+}
+
+#direitos{
+	margin: 0px 0px 10px 110px;
+
+}
+
+/* Painel administrativo */
+
+@media screen and (max-width: 600px){
+    body{
+	    background-color:;
+	}
+
+	#divLoginAdm{
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	}
+}
+
+
+#bodyAdmin{
+	background-color: #000000;
+}
+
+#divLoginAdm{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* Informacoes administrador */
+
+.bg_info{
+	background-color: #000 !important;
+}
+
+.brTitPag{
+	background-color: #8bc954;
+}
+
+
+p#hora{
+	padding: 0;
+	margin:0;
+	float: right;
+}
+
+
+/* Menu painel administrativo */
+
+.menuAdm{
+	list-style:none;
+	float:left;
+	margin-bottom: 0 !important;
+
+}
+
+.menuAdm li{
+	position:relative;
+	float:left;
+	border-right:1px solid #c0c0c0;
+}
+
+.menuAdm li a{
+	color:#333; 
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:block;
+}
+
+.menuAdm li a:hover{
+	background:#007bff;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+.menuAdm li  ul{
+	position:absolute;
+	left:0;
+	background-color:#fff;
+	display:none;
+
+}
+
+.menuAdm li:hover ul, .menu li.over ul{
+	display:block;
+}
+
+.menuAdm li ul li{
+	border:1px solid #c0c0c0;
+	display:block;
+	width:150px;
+}
+
+/* Tela cadastro de produtos */
+
+/* Link carrinho de compras Index*/
+.carrinho{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Scroll */
+
+#scroll {position:fixed; 
+	right:10px; 
+	bottom:10px; 
+	cursor:pointer; 
+	width:40px; 
+	height:40px; 
+	background-color:#D80000; 
+	text-indent:-9999px; 
+	display:none; 
+	border-radius:60px; 
+	box-shadow:-1px 3px 7px rgba(0,0,0,.9);
+}
+#scroll span {position:absolute; 
+	top:50%; 
+	left:50%; 
+	margin-left:-10px; 
+	margin-top:-17px; 
+	height:0; 
+	width:0; 
+	border:10px solid transparent; 
+	border-bottom-color:#fff;
+}
+#scroll:hover {background-color:#A80000; opacity:1}
+
+input[type=file]{ 
+        width:220px;
+    }
+
+/* Busca e lista de alimentos */
+
+
+input#form-control{
+	background-image: url("IMG/lupa.png") left;
+	border: none;
+	border-bottom: solid 2px #003c8f;
+}
+
+#contentLista{
+	margin-top: 100px;
+}
+
+.formatArea{
+	scroll-behavior: auto;
+}
