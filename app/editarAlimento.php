@@ -60,7 +60,7 @@
 			<nav>
 				 <ul class="menuAdm">
 						<li><a href="painel.php">
-							<img src="../IMG/homeAdm.png" width="20" height="20" title="Home">
+							<img src="IMG/homeAdm.png" width="20" height="20" title="Home">
 						</a></li>
 						<li><a href="listaAlimentos.php">Alimentos</a>
 							<ul>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <script src="../js/scripts.js"></script>
-		<link rel="icon" href="../IMG/favicon.ico">
+        <script src="js/scripts.js"></script>
+		<link rel="icon" href="IMG/favicon.ico">
 		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 		<title>
 		Cadastro de Produtos - Dr. PC
 		</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-		<link rel="stylesheet" href="../CSS/new.css">
+		<link rel="stylesheet" href="CSS/new.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
@@ -56,7 +56,7 @@
 		  	<!-- Botoes -->
 			<nav>
 				 <ul class="menuAdm">
-						<li><a href="painel.php"><img src="../IMG/homeAdm.png" width="20" height="20" title="Home"> </a></li>
+						<li><a href="painel.php"><img src="IMG/homeAdm.png" width="20" height="20" title="Home"> </a></li>
 							<li><a href="#">Pedidos</a>
 								<ul>
 					                  <li><a href="#">Visualizar</a></li>
@@ -93,7 +93,7 @@ include "conexao.php";
 ?>
 <!-- -------------- conteudo ---------------------------------------------------------------------------------------------------------------->
 <div class="brTitPag shadow-sm p-2 font-weight-bold">
-<img src="../IMG/slide.png" width="40" height="40" title="Home"> &nbsp Cadastro de produtos
+<img src="IMG/slide.png" width="40" height="40" title="Home"> &nbsp Cadastro de produtos
 </div>
 
 

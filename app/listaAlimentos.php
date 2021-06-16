@@ -58,7 +58,7 @@
 			<nav>
 				 <ul class="menuAdm">
 						<li><a href="painel.php">
-							<img src="../IMG/homeAdm.png" width="20" height="20" title="Home">
+							<img src="IMG/homeAdm.png" width="20" height="20" title="Home">
 						</a></li>
 						<li><a href="listaAlimentos.php">Alimentos</a>
 							<ul>
@@ -80,7 +80,7 @@ include "conexao.php";
 ?>
 <!-- -------------- conteudo ---------------------------------------------------------------------------------------------------------------->
 <div class="brTitPag shadow-sm p-2 font-weight-bold">
-<img src="../IMG/lista.png" width="40" height="40" title="Home"> &nbsp Alimentos cadastrados
+<img src="IMG/lista.png" width="40" height="40" title="Home"> &nbsp Alimentos cadastrados
 </div>
 
 
