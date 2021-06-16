@@ -1,3 +1,4 @@
+create database siad03;
 use siad03;
 
 create table usuario(
@@ -9,9 +10,7 @@ create table usuario(
     Peso decimal(3,1) not null,
     Altura decimal(3,1) not null
 );
-drop table usuario;
-select * from usuario;
-desc usuario;
+
 
 create table alimentos(
 	idAlimento int primary key auto_increment,
@@ -26,9 +25,6 @@ create table alimentos(
 
 INSERT INTO alimentos (Grupo, Nome, Imagem, Descricao, Porcao, ImgTabela) VALUES (02,"Alface","alface.jpeg", "Alface", 80.0 , "tabela_alface.png");
 
-drop table alimentos;
-select * from alimentos;
-desc alimentos;
 
 create table gadgets(
 	idGadgets int primary key auto_increment,
@@ -36,9 +32,6 @@ create table gadgets(
     Imagem varchar(45) not null,
     Descricao varchar(10000) not null
 );
-drop table gadgets;
-select * from gadgets;
-desc gadgets;
 
 create table adm(
 	idAdm int primary key auto_increment,
@@ -47,7 +40,6 @@ create table adm(
     senha varchar(16) not null
 );
 
-select * from adm;
 
 
 create table mensagem(
